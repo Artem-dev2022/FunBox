@@ -1,0 +1,28 @@
+@media (max-width: 1119px) {
+    html {
+        height: 1200px;
+    }
+    .container {
+        position: static;
+        padding-top: 36px;
+        width: 720px;
+        height: 1200px;
+    }
+    .products {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .products__item:last-child {
+        align-self: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 719px) {
+    html {
+        height: 1900px;
+    }
+    .container {
+        width: 320px;
+    }
+}
